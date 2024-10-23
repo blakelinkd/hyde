@@ -114,6 +114,20 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.sidebar h2 {
+  color: #fff;
+  margin-top: 1.5rem;
+}
+
+.sidebar-nav.recent-posts {
+  margin-top: 0.5rem;
+}
+
+.sidebar-nav.recent-posts li {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
 
 /* Container
  *

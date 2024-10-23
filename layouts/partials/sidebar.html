@@ -14,7 +14,14 @@
           <li><a href="{{.URL}}"> {{ .Name }} </a></li>
         {{- end }}
       </ul>
+      <h4 style="color: inherit;">Recent Posts</h2>
+      <ul class="sidebar-nav recent-posts">
+        {{ range first 5 .Site.RegularPages }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
     </nav>
+
 
     <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
   </div>
