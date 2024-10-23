@@ -262,3 +262,27 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+.job-seeking-note {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  text-align: left;
+}
+
+.job-seeking-note p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.job-seeking-note a {
+  color: #FFD700;
+  text-decoration: underline;
+}
+
+.job-seeking-note a:hover {
+  text-decoration: none;
+}
